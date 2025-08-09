@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="robots" content="noindex" />
+    <title>スイーツサイト</title>
+    <meta name="description" content="サイトの概要を記入します。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-inner">
+        <h1 class="header-logo">
+          <img src="./img/logo.svg" alt="Sweet Delight" />
+        </h1>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a href="#about" class="header-nav-link">About</a>
+            </li>
+            <li class="header-nav-item header-drawer-content">
+              <a href="#menu" class="header-nav-link" id="js-drawer">Menu</a>
+              <ul class="header-nav-drawer-list">
+                <li class="header-nav-drawer-item">
+                  <a class="header-nav-drawer-link" href="#new">新発売</a>
+                </li>
+                <li class="header-nav-drawer-item">
+                  <a class="header-nav-drawer-link" href="#recommend">おすすめ</a>
+                </li>
+                <li class="header-nav-drawer-item">
+                  <a class="header-nav-drawer-link" href="limited">期間限定</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header-nav-item">
+              <a href="#shop" class="header-nav-link">Shop</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="fv">
+      <picture class="fv-picture">
+        <source media="(min-width: 768px)" srcset="./img/fv.png" />
+        <img src="./img/sp/fv.png" alt="" />
+      </picture>
+    </div>
+    <section class="about" id="about">
+      <div class="inner">
+        <h2 class="section-heading">
+          <span class="section-heading-main">About</span>
+          <span class="section-heading-sub">ー 当店について ー</span>
+        </h2>
+        <div class="about-contents">
+          <img class="about-img" src="./img/about.png" alt="" />
+          <div class="about-text-contents">
+            <p class="about-text">当店では、素材の持つ美味しさや風味を最大限に生かし、シンプルでありながらも、素材の良さを引き出すこだわりのスイーツを提供しています。</p>
+            <p class="about-text">自然な味わいを大切にし、素材を感じさせるスイーツで、心に残るひとときをお過ごしください。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu" id="menu">
+      <div class="inner">
+        <h2 class="section-heading">
+          <span class="section-heading-main">Menu</span>
+          <span class="section-heading-sub">ー 今月のケーキ ー</span>
+        </h2>
+        <div class="menu-contents">
+          <ul class="menu-list">
+            <li class="menu-item" id="recommend">
+              <div class="menu-img">
+                <img src="./img/menu1.png" alt="おすすめ ストロベリーケーキ" />
+              </div>
+              <div class="menu-text-contents">
+                <h3 class="menu-name">
+                  <span class="menu-name-main">ストロベリーケーキ</span>
+                  <span class="menu-name-sub">- Strawberry cake -</span>
+                </h3>
+                <p class="menu-text"># 旬のあまおうトッピング</p>
+              </div>
+            </li>
+            <li class="menu-item" id="new">
+              <div class="menu-img">
+                <img src="./img/menu2.png" alt="新発売 ブルーベリーケーキ" />
+              </div>
+              <div class="menu-text-contents">
+                <h3 class="menu-name">
+                  <span class="menu-name-main">ブルーベリーチーズケーキ</span>
+                  <span class="menu-name-sub">- Blueberry cheesecake -</span>
+                </h3>
+                <p class="menu-text"># フランス産チーズをブレンド</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-img">
+                <img src="./img/menu3.png" alt="おすすめ チョコレートケーキ" />
+              </div>
+              <div class="menu-text-contents">
+                <h3 class="menu-name">
+                  <span class="menu-name-main">チョコレートケーキ</span>
+                  <span class="menu-name-sub">- Chocolate cake -</span>
+                </h3>
+                <p class="menu-text"># ベルギー産チョコレート使用</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="shop" id="shop">
+      <div class="shop-inner">
+        <h2 class="section-heading section-heading-l">
+          <span class="section-heading-main">Shop</span>
+          <span class="section-heading-sub">ー ショップ情報 ー</span>
+        </h2>
+        <div class="shop-contents">
+          <p class="shop-text">
+            ただいま、オンラインストアを準備中です。<br />
+            最新情報は以下より送信いただいた<br />
+            メールアドレスへご案内いたします。
+          </p>
+        </div>
+        <form action="" class="form">
+          <input type="email" name="" id="" class="form-input" placeholder="sample@sample.com" />
+          <button type="submit" class="form-submit">SEND</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-logo">
+        <img src="./img/logo.svg" alt="Sweet Delight" />
+      </div>
+      <p class="footer-text">ー 各SNS更新中 ー</p>
+      <ul class="footer-nav-list">
+        <li class="footer-nav-item">
+          <a href="" target="_blank" class="footer-nav-link"
+            ><img src="./img/icon-instagram.png" alt="" class="sns-img" />
+            <p class="footer-nav-link-text">メニューご案内</p>
+          </a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="" target="_blank" class="footer-nav-link"
+            ><img src="./img/icon-youtube.png" alt="" class="sns-img" />
+            <p class="footer-nav-link-text">制作のウラガワ</p>
+          </a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="" target="_blank" class="footer-nav-link"
+            ><img src="./img/icon-twitter.png" alt="" class="sns-img" />
+            <p class="footer-nav-link-text">お店の混雑状況</p>
+          </a>
+        </li>
+      </ul>
+      <div class="footer-copy-wrapper">
+        <small class="footer-copyright">&copy;2023 Sweet Delight.</small>
+      </div>
+    </footer>
+    <div id="js-pagetop">
+      <a href="#" class="js-pagetop-text">TOP</a>
+    </div>
+    <div id="js-modal">
+      <img class="js-modal-img" src="" alt="" />
+    </div>
+    <!-- 先にjQueryを読み込む -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script>
+      jQuery(function () {
+        /*
+      課題①：ドロワーメニューの実装
+      実装条件
+      ・Menuをクリックすると
+      ・新発売・おすすめ・期間限定のメニューを表示
+      ・開閉時間の指定は不要
+      */
+        jQuery("#js-drawer").on("click", function (e) {
+          jQuery(".header-nav-drawer-list").slideToggle();
+          e.preventDefault();
+          //  return false; /* aタグ本来の動きを無効化 */
+        });
+
+        /*
+      課題②：ページトップへ戻るボタンを付ける
+      実装条件
+      ・トップから80pxスクロールしたら
+      ・300ms（0.3秒）かけて
+      ・フェードイン・フェードアウトで表示・非表示
+      ・表示してる間はボタンはページ右下に固定
+      ・ボタンを押したら500ms（0.5秒）かけてページトップへ戻る
+      */
+        // 下に80pxスクロールしたときのイベント
+        jQuery(window).on("scroll", function () {
+          jQuery(".header-nav-drawer-list").hide();
+          if (jQuery(window).scrollTop() > 80) {
+            jQuery("#js-pagetop").fadeIn(300);
+          } else {
+            jQuery("#js-pagetop").fadeOut(300);
+          }
+        });
+
+        // TOPボタンをクリックしたときのイベント
+        jQuery("#js-pagetop").click(function (e) {
+          jQuery("html, body").animate({ scrollTop: 0 }, 500);
+          e.preventDefault();
+        });
+
+        /*
+      課題③：モーダルで画像の拡大表示
+      実装条件
+      ・メニュー一覧の画像をクリックすると
+      ・縦横画面いっぱいに薄いグレーの背景ボックスを表示
+      ・その枠の中心に拡大されたメニュー写真を表示
+      ・画面のどこかをクリックすると拡大写真と背景ボックスを非表示
+      ・アニメーションはフェードイン・フェードアウト
+      ※要 style.cssの修正（モーダルウィンドウのレイアウト指定）
+      */
+        jQuery(".menu-img img").on("click", function () {
+          let imgurl = $(this).attr("src");
+          jQuery("#js-modal").css("display", "flex");
+          jQuery(".js-modal-img").attr("src", imgurl).fadeIn();
+          jQuery("html,body").css("overflow", "hidden"); // モーダルが表示されているときはスクロールバーを非表示に
+        });
+        jQuery("#js-modal").on("click", function () {
+          if (jQuery("#js-modal").is(":visible")) {
+            jQuery("#js-modal").fadeOut();
+            jQuery("html,body").removeAttr("style"); //  overflow:hidden; のスタイルを削除
+          }
+        });
+        jQuery(".js-modal-img").on("click", function (e) {
+          e.stopPropagation(); // 画像の上をクリックしたときは、モーダルが消えないようにする
+        });
+      });
+    </script>
+  </body>
+</html>
