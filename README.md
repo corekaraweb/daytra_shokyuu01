@@ -81,8 +81,15 @@ https://corekaraweb.github.io/daytra_shokyuu01/
 .
 ├── index.html
 ├── css
-│   └── style.css
+│   ├── style.css
+│   ├── style-bk.css
+│   ├── style.css
+│   └── reset-bk.css
 ├── images
+├── LICENSE.txt
+├── favicon.ico
+├── screenshot_pc.png
+├── screenshot_sp.png
 └── README.md
 ```
 
