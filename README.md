@@ -51,7 +51,7 @@ https://corekaraweb.github.io/daytra_shokyuu01/
 | ------------------ | ------------------- |
 | マークアップ       | HTML5               |
 | スタイリング       | CSS3                |
-| フトントエンド     | JavaScript / jQuery |
+| フロントエンド     | JavaScript / jQuery |
 | レイアウト         | Flexbox             |
 | マルチデバイス対応 | Media Queries       |
 | バージョン管理     | Git / GitHub        |
