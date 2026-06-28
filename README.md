@@ -86,9 +86,7 @@ https://corekaraweb.github.io/daytra_shokyuu01/
 ├── index.html
 ├── css
 │   ├── style.css
-│   ├── style-bk.css
-│   ├── reset.css
-│   └── reset-bk.css
+│   └── reset.css
 ├── js
 │   └── script.js
 ├── images
